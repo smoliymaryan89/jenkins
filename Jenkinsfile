@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent { label 'My_Agent' }
+
 
     stages {
         stage('Install Apache2') {
